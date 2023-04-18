@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document';
 export default function Document() {
   const meta = {
     title: 'Munkhjin | Portfolio',
-    description: 'Munkhjin`s Portfolio website',
+    description: 'Munkhjin`s Portfolio Website',
   };
 
   return (
