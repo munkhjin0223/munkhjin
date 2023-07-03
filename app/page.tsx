@@ -3,7 +3,8 @@ export default function Page() {
     <div>
       <h1>Munkhjin Badamkhatan</h1>
       <article>
-        Hey, I'm a Senior Software Engineer. I enjoy working with Next.js and crafting beautiful front-end experiences.
+        Hey, I&apos;m a Senior Software Engineer. I enjoy working with Next.js and crafting beautiful front-end
+        experiences.
       </article>
     </div>
   );
