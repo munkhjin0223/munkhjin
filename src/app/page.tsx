@@ -1,10 +1,14 @@
+import NextJsLesson from '@/components/NextJsLesson';
+
 export default async function Page() {
   return (
-    <div>
-      <h1 className='text-4xl pb-4'>Мөнхжин Бадамхатан</h1>
-      <article className='text-2xl'>
-        Сайн байна уу? Намайг Мөнхжин гэдэг. Би програм хангамжийн инжинер мэргэжилтэй.
-      </article>
-    </div>
+    <>
+      <div>
+        <h1 className='text-4xl pb-4 text-center'>Б.Мөнхжин</h1>
+        <article className='text-2xl text-center'>Програм хангамжийн инжинер. 12 жилийн ажлын туршлагатай.</article>
+        <div className='h-40' />
+        <NextJsLesson />
+      </div>
+    </>
   );
 }

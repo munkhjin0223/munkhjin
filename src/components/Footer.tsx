@@ -4,12 +4,11 @@ interface FooterProps {}
 
 const Footer: FunctionComponent<FooterProps> = () => {
   return (
-    <footer>
+    <footer className='text-center'>
       <ul>
         <li>
-          Discord server:{' '}
           <a target='_blank' rel='noopener noreferrer' className='text-sky-800' href='https://discord.gg/QMR6Q2Tud4'>
-            QMR6Q2Tud4
+            https://discord.gg/QMR6Q2Tud4
           </a>
         </li>
         <li>
