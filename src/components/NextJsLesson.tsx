@@ -12,8 +12,14 @@ const Lesson: FunctionComponent<LessonProps> = () => {
         <CardTitle>Next.js 13 хичээл</CardTitle>
       </CardHeader>
       <CardContent className='grid gap-4 text-center'>
-        Next.js нь 2016 онд танилцуулагдсан React.js дээр суурилсан дэлхий даяар хамгийн их ашиглагддаг, ерөнхий
-        зориулалттай фрэймворк юм.
+        <p>
+          Next.js нь 2016 онд танилцуулагдсан React.js дээр суурилсан дэлхий даяар хамгийн их ашиглагддаг, ерөнхий
+          зориулалттай фрэймворк юм.
+        </p>
+        <p className='text-xl'>
+          Үнэ: <span className='text-red-400'>29,900₮</span> <br />
+          2023.08.01-ээс эхлэн үнэ <span className='text-red-400'>49,900₮</span> болно.
+        </p>
       </CardContent>
       <CardFooter className='justify-center'>
         <Button size='lg'>
